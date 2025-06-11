@@ -102,8 +102,14 @@ export function AboutSection() {
           <div className="lg:col-span-1">
             <Card className="overflow-hidden">
               <CardContent className="p-0">
-                <div className="aspect-square relative">
-                  <Image src="/images/manpreet-about.jpg" alt="Manpreet Singh" fill className="object-cover" priority />
+                <div className="aspect-square relative h-[400px]">
+                  <Image
+                    src="/images/manpreet-about.jpg"
+                    alt="Manpreet Singh"
+                    fill
+                    className="object-cover rounded-lg"
+                    priority
+                  />
                 </div>
                 <div className="p-6 space-y-4">
                   <div>
@@ -136,17 +142,6 @@ export function AboutSection() {
 
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
-            {/* Professional Summary */}
-            {/* <div>
-              <h3 className="text-2xl font-semibold mb-4">Professional Summary</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Strong work ethics, confident, and passionate about solving real-life problems. Proficient in soft
-                skills and technical domains like algorithms and data structures, and committed to leveraging advanced
-                technology to drive innovation. Recent Computer Science Engineering graduate with hands-on experience in
-                full-stack web development.
-              </p>
-            </div> */}
-
             {/* Experience */}
             <div>
               <h3 className="text-2xl font-semibold mb-4">Experience</h3>

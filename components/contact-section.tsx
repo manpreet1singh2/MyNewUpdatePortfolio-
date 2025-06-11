@@ -55,12 +55,12 @@ export function ContactSection() {
             <Card>
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-orange-500/20">
+                  <div className="w-24 h-24 rounded-lg overflow-hidden border-2 border-orange-500/20">
                     <Image
                       src="/images/manpreet-professional.jpg"
                       alt="Manpreet Singh"
-                      width={64}
-                      height={64}
+                      width={96}
+                      height={96}
                       className="object-cover w-full h-full"
                     />
                   </div>

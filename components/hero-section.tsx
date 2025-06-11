@@ -63,12 +63,12 @@ export function HeroSection() {
             className="flex-1 flex justify-center lg:justify-end"
           >
             <div className="relative">
-              <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-orange-500/20 shadow-2xl">
+              <div className="w-[450px] h-[450px] rounded-lg overflow-hidden border-4 border-orange-500/20 shadow-2xl">
                 <Image
                   src="/images/manpreet-hero.jpg"
                   alt="Manpreet Singh"
-                  width={320}
-                  height={320}
+                  width={450}
+                  height={450}
                   className="object-cover w-full h-full"
                   priority
                 />

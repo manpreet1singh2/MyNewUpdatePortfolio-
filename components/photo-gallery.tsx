@@ -44,7 +44,7 @@ export function PhotoGallery() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {photos.map((photo, index) => (
             <motion.div
               key={index}
@@ -55,12 +55,12 @@ export function PhotoGallery() {
             >
               <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                 <CardContent className="p-0">
-                  <div className="aspect-square relative">
+                  <div className="aspect-square relative h-[250px]">
                     <Image
                       src={photo.src || "/placeholder.svg"}
                       alt={photo.alt}
                       fill
-                      className="object-cover transition-transform hover:scale-105"
+                      className="object-cover transition-transform hover:scale-105 rounded-t-lg"
                     />
                   </div>
                   <div className="p-3 text-center">
