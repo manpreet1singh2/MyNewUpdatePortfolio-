@@ -11,52 +11,55 @@ import Image from "next/image"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "Portfolio Website",
-      description: "My personal portfolio website showcasing my projects and skills as a Front-End Developer.",
+      title: "AI-Powered Design Assistant",
+      description:
+        "Your AI-Powered Creative Partner for generating stunning graphics and designs using artificial intelligence.",
       image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML", "CSS", "JavaScript", "Next.js"],
-      liveUrl: "https://manpreet1singh2.github.io/portfolio1-main",
-      githubUrl: "https://github.com/manpreet1singh2/portfolio1-main",
+      technologies: ["TypeScript", "CSS", "JavaScript", "AI"],
+      liveUrl: "#", // Add live URL when available
+      githubUrl: "https://github.com/manpreet1singh2/Graphic-design-create-WIth-AI",
     },
     {
-      title: "Gym Website",
-      description: "A responsive website for a gym with information about services, trainers, and membership options.",
+      title: "SkillPlay - Gaming Platform",
+      description:
+        "Real-Money Skill-Based Gaming Platform where users can play games and earn real money based on their skills.",
       image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://manpreet1singh2.github.io/gym-website/",
-      githubUrl: "https://github.com/manpreet1singh2/gym-website",
+      technologies: ["TypeScript", "CSS", "JavaScript", "Next.js"],
+      liveUrl: "https://moneydouble.vercel.app",
+      githubUrl: "https://github.com/manpreet1singh2/moneydouble.com",
     },
     {
-      title: "Netflix Clone",
-      description: "A clone of the Netflix interface with similar design and functionality.",
+      title: "Gambling App",
+      description:
+        "A comprehensive gambling application with various games and betting features built with modern web technologies.",
       image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://manpreet1singh2.github.io/netflix-clone/",
-      githubUrl: "https://github.com/manpreet1singh2/netflix-clone",
+      technologies: ["TypeScript", "CSS", "JavaScript", "React"],
+      liveUrl: "#", // Add live URL when available
+      githubUrl: "https://github.com/manpreet1singh2/Gambling-app",
     },
     {
-      title: "Weather App",
-      description: "A weather application that displays current weather conditions and forecasts for any location.",
+      title: "AI-Powered Blog Generator",
+      description: "An intelligent blog generation platform that uses AI to create engaging content automatically.",
       image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML", "CSS", "JavaScript", "API"],
-      liveUrl: "https://manpreet1singh2.github.io/weather-app/",
-      githubUrl: "https://github.com/manpreet1singh2/weather-app",
+      technologies: ["TypeScript", "AI", "Next.js", "API"],
+      liveUrl: "#", // Add live URL when available
+      githubUrl: "https://github.com/manpreet1singh2/AI-Powered-Blog-Generator",
     },
     {
-      title: "Drum Kit",
-      description: "An interactive drum kit that plays sounds when keys are pressed or buttons are clicked.",
+      title: "E-Commerce Application",
+      description: "A full-featured e-commerce platform with shopping cart, payment integration, and user management.",
       image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://manpreet1singh2.github.io/drum-kit/",
-      githubUrl: "https://github.com/manpreet1singh2/drum-kit",
+      technologies: ["TypeScript", "CSS", "JavaScript", "React"],
+      liveUrl: "#", // Add live URL when available
+      githubUrl: "https://github.com/manpreet1singh2/Ecommerce-app.in",
     },
     {
-      title: "To-Do List",
-      description: "A simple to-do list application for managing tasks and daily activities.",
+      title: "Gyaan Glitch",
+      description: "An educational platform designed to share knowledge and insights on various technical topics.",
       image: "/placeholder.svg?height=200&width=400",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://manpreet1singh2.github.io/to-do-list/",
-      githubUrl: "https://github.com/manpreet1singh2/to-do-list",
+      technologies: ["TypeScript", "CSS", "JavaScript", "React"],
+      liveUrl: "#", // Add live URL when available
+      githubUrl: "https://github.com/manpreet1singh2/gyaan-glitch",
     },
   ]
 
