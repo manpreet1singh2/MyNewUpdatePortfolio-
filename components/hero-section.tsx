@@ -28,7 +28,7 @@ export function HeroSection() {
                 </span>
               </h1>
               <p className="max-w-[700px] text-xl text-muted-foreground md:text-2xl">
-                Front-End Developer | AI-Powered Coder
+                AI/ML Developer | Full Stack Developer
               </p>
             </div>
 

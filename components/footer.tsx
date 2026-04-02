@@ -18,7 +18,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-semibold">Manpreet Singh</h3>
-            <p className="text-sm text-muted-foreground">Front-End Developer | AI-Powered Coder</p>
+            <p className="text-sm text-muted-foreground">Full Stack Developer | AI-Powered Coder</p>
           </div>
 
           <div className="flex space-x-4">
@@ -35,7 +35,7 @@ export function Footer() {
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://linkedin.com/in/manpreet-singh-0148ab179" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/manpreet-singh-84750627a/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>

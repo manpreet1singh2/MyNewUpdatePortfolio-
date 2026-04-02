@@ -55,7 +55,7 @@ export function PhotoGallery() {
             >
               <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                 <CardContent className="p-0">
-                  <div className="aspect-square relative h-[250px]">
+                  <div className="aspect-square relative h-[290px]">
                     <Image
                       src={photo.src || "/placeholder.svg"}
                       alt={photo.alt}

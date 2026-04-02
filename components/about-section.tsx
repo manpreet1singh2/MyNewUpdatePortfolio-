@@ -45,16 +45,21 @@ export function AboutSection() {
     },
   ]
 
-  const experience = {
-    title: "Front-End and Back-End Developer Intern",
-    company: "TryCyfer Technologies Pvt. Ltd.",
-    period: "Oct 2024 – Dec 2024",
-    achievements: [
-      "Mastered web development essentials including HTML, CSS, Bootstrap, JavaScript, and SQL",
-      "Built responsive designs and contributed to multiple web applications",
-      "Worked on projects: Wheelstovet, mytr.ai, and AP Associate",
-    ],
-  }
+const experience = {
+  title: "AI Automation Developer | Full Stack Developer Intern",
+  company: "TryCyfer Technologies Pvt. Ltd. | Sacred Mind Info Tech Pvt. Ltd.",
+period: "Started my development journey in Oct 2024",
+  achievements: [
+ "Engineered AI-powered automation workflows using LLM APIs to streamline business processes and reduce manual intervention",
+  "Developed responsive and scalable web applications using HTML5, CSS3, JavaScript, React, and SQL",
+  "Integrated REST APIs and AI models for intelligent data processing, recommendation logic, and task automation",
+  "Designed and implemented end-to-end automation pipelines including job scraping, email triggers, and WhatsApp notifications",
+  "Applied prompt engineering techniques to optimize AI responses for real-world use cases",
+  "Worked across full-stack architecture (frontend + backend) to deliver performant and scalable solutions",
+  "Contributed to real-world production-style projects including Wheelstovet and mytr.ai",
+  ],
+}
+  
 
   const awards = [
     "Silver Medalist in 'Software Testing' (NPTEL)",
@@ -102,7 +107,7 @@ export function AboutSection() {
           <div className="lg:col-span-1">
             <Card className="overflow-hidden">
               <CardContent className="p-0">
-                <div className="aspect-square relative h-[400px]">
+                <div className="aspect-square relative h-[426px]">
                   <Image
                     src="/images/manpreet-about.jpg"
                     alt="Manpreet Singh"
